@@ -4,7 +4,6 @@ import Layout from 'layouts/Layout';
 
 const ProtectedRoute = ({ redirectPath = '/login' }) => {
   const user = true;
-  console.log('user', user);
   if (!user) {
     return <Navigate to={redirectPath} replace />;
   }

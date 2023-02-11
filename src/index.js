@@ -13,16 +13,14 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <GlobalStyles styles={globalStyles} />
+  <StyledEngineProvider injectFirst>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <GlobalStyles styles={globalStyles} />
 
-        <App />
-      </ThemeProvider>
-    </StyledEngineProvider>
-  </React.StrictMode>
+      <App />
+    </ThemeProvider>
+  </StyledEngineProvider>
 );
 
 // If you want to start measuring performance in your app, pass a function

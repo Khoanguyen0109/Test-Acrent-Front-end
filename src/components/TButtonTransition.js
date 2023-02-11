@@ -1,7 +1,7 @@
 import React from 'react';
 
 function TButtonTransition() {
-  return <div></div>;
+  return <div />;
 }
 
 export default TButtonTransition;

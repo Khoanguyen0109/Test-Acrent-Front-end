@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
+import 'react-perfect-scrollbar/dist/css/styles.css';
 
 import routes from 'routes';
 import ProtectedRoute from 'routes/ProtectedRoute';
